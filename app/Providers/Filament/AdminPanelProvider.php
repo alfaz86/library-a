@@ -73,12 +73,7 @@ class AdminPanelProvider extends PanelProvider
                 LoanResource::class,
                 LoanReturnResource::class,
             ]))
-            ->userMenuItems([
-                MenuItem::make()
-                    ->label(fn() => __('setting.menu_item'))
-                    ->url(fn(): string => SettingResource::getUrl())
-                    ->icon('heroicon-o-cog-6-tooth'),
-            ])
+            ->userMenuItems([])
             ->brandName($this->getBrand('app::name'))
             ->brandLogo(fn() => view(
                 'core::filament.sidebar.logo',
