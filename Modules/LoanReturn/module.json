@@ -1,0 +1,11 @@
+{
+    "name": "LoanReturn",
+    "alias": "loan-return",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\LoanReturn\\Providers\\LoanReturnServiceProvider"
+    ],
+    "files": []
+}

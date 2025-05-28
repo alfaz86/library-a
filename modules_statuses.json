@@ -1,0 +1,15 @@
+{
+    "Core": true,
+    "Books": true,
+    "Members": true,
+    "Loans": true,
+    "Staffs": true,
+    "Dashboard": true,
+    "Settings": true,
+    "Book": true,
+    "Member": true,
+    "Loan": true,
+    "LoanReturn": true,
+    "Fines": true,
+    "Report": true
+}
