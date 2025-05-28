@@ -34,7 +34,7 @@ class FilamentLogManager extends Logs
 
     public static function shouldRegisterNavigation(): bool
     {
-        return isPluginActive('logger');
+        return false;
     }
 
 }
