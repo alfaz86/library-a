@@ -24,7 +24,7 @@ class AppServiceProvider extends ServiceProvider
     {
         LanguageSwitch::configureUsing(function (LanguageSwitch $switch) {
             $switch
-                ->locales(['en', 'id']);
+                ->locales(['id']);
         });
 
         Field::macro("tooltip", function (string $tooltip) {
